@@ -1,9 +1,9 @@
-num1 = 2
-num2 = 4
-print("num1 & num2 are:", num1,num2)
-print("num1 | num2 are:", num1 | num2)
-print("num1 ^ num2 are:", num1 ^ num2)
-print("num1 << num2 are:", num1 << num2)
-print("num1 >> num2 are:", num1 >> num2)
-print("`num1 are:",  ~num1)
-print("`num1 are:",  ~num1)
+while True:
+    def numberOfbits(n):
+        count = 0
+        while (n):
+            count += 1
+            n >>= 1
+        return count
+    n = int(input("enter a number"))
+    print("number of bits:", numberOfbits(n))
