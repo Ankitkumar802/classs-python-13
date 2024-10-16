@@ -1,5 +1,5 @@
 def solve_circuit(voltage, resistances):
-    # Calculate total resistance
+    
     total_resistance = sum(resistances)
     
     # Calculate total current (Ohm's law: V = IR => I = V/R)
@@ -13,7 +13,7 @@ def solve_circuit(voltage, resistances):
     
     return currents, voltage_drops
 
-# Example usage
+
 voltage = float(input("Enter the voltage: "))  # Convert to float
 resistances = list(map(float, input("Enter the resistances (space-separated): ").split()))
 
